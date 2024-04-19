@@ -24,7 +24,6 @@ Our Flask-based web dashboard is the front-end interface where users can interac
 ## Data Pipeline and Deployment
 The entire application is supported by a robust data pipeline hosted on AWS. We employ services like AWS S3 for data storage, AWS Lambda for daily data updates, and AWS Secrets Manager for secure management of credentials. The CI/CD pipeline, built with GitHub Actions and Docker, ensures that our application is continuously updated with the latest code and data, maintaining high availability and reliability.
 
-![Alt text](images/pipeline.png)
 
 ## Conclusion
 AI4AQ stands as a testament to the power of integrating diverse data sources with advanced machine learning techniques to tackle environmental challenges. As we look forward, we are committed to expanding our reach, refining our models, and enhancing our dashboard to provide even more precise and actionable air quality insights.
